@@ -62,8 +62,6 @@
 
 ### 1.3. Какие типовые задачи решает БД
 
-Разработанная база данных решает следующие практические задачи:
-
 1. Централизованное хранение данных о клиентах, контактах и брифах.
 2. Учет проектов разового и абонентского типа.
 3. Хранение состава услуг по каждому проекту.
@@ -81,7 +79,7 @@
 
 ### 2.1. Краткое сравнение
 
-На рынке уже существуют системы, которые решают смежные задачи управления проектами, маркетингом, клиентами и контент-производством. Однако большинство аналогов являются либо универсальными SaaS-платформами управления задачами, либо CRM/коллаборационными платформами, а не специализированными учебными системами для контент-агентства.
+На рынке уже существуют системы, которые решают смежные задачи управления проектами, маркетингом, клиентами и контент-производством. Однако большинство аналогов являются либо универсальными SaaS-платформами управления задачами, либо CRM/коллаборационными платформами, а не специализированными системами для контент-агентства.
 
 | Аналог | Архитектура | СУБД / слой данных | Функциональные возможности | Вывод относительно проекта |
 |---|---|---|---|---|
@@ -468,18 +466,6 @@ ORDER BY pv.sent_to_client_at DESC;
 - полноценный SQL DDL;
 - тестовые данные;
 - GUI для работы с базой;
-- набор аналитических SQL-запросов;
-- артефакты, пригодные для демонстрации и сдачи.
+- набор аналитических SQL-запросов.
 
 Проект решает прикладную задачу учета клиентов, проектов, этапов, задач, согласований, финансов и материалов в рамках работы контент-агентства. Выбранная архитектура подходит для учебной и демонстрационной реализации, а также может быть расширена в сторону полноценной промышленной информационной системы.
-
-## Источники
-
-1. Asana Features: [https://asana.com/features](https://asana.com/features)
-2. Asana Annual Report / technology and integrations: [https://investors.asana.com/static-files/e2699fa5-2ea9-4f18-bae2-fcab3ba047b3](https://investors.asana.com/static-files/e2699fa5-2ea9-4f18-bae2-fcab3ba047b3)
-3. monday.com Work Management: [https://monday.com/w/work-management](https://monday.com/w/work-management)
-4. monday.com FY2023 Annual Report: [https://ir.monday.com/files/doc_financials/2023/ar/20-F_2023_.pdf](https://ir.monday.com/files/doc_financials/2023/ar/20-F_2023_.pdf)
-5. Bitrix24 tools and features: [https://www.bitrix24.com/tools/](https://www.bitrix24.com/tools/)
-6. Bitrix24 licensing: [https://helpdesk.bitrix24.com/open/17395372/](https://helpdesk.bitrix24.com/open/17395372/)
-7. Bitrix24 self-hosted installation: [https://www.bitrix24.com/self-hosted/installation.php](https://www.bitrix24.com/self-hosted/installation.php)
-8. Airtable platform: [https://www.airtable.com/platform](https://www.airtable.com/platform)
